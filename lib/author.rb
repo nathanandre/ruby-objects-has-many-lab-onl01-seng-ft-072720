@@ -26,7 +26,7 @@ class Author
     song
   end
   
-  def song_count
+  def post_count
     self.songs.size 
   end 
 
