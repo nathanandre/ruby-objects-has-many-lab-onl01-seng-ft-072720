@@ -4,15 +4,15 @@ class Artist
   #attr_reader :songs 
 
   @@song_count = 0
-  
-  def songs 
-    @songs << self.all 
-  end 
 
   def initialize(name)
     @name = name
     @songs = []
   end
+  
+  def songs 
+    @songs << self.all 
+  end 
 
   def add_song(song)
     @@song_count += 1
