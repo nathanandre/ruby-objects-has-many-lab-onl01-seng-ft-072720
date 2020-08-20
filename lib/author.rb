@@ -27,7 +27,7 @@ class Author
   end
   
   def post_count
-    self.songs.size 
+    self.posts.size 
   end 
 
   def self.song_count
