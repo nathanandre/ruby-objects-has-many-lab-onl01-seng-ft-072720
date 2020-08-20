@@ -6,6 +6,7 @@ class Artist
   @@song_count = 0
   
   def songs 
+    @@all << self 
   end 
 
   def initialize(name)
