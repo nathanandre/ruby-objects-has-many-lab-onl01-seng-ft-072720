@@ -20,7 +20,7 @@ class Author
     post.author = self
   end
 
-  def add_post_by_name(name)
+  def add_post_by_title(title)
     post = Post.new(name)
     self.add_post(post)
     song
