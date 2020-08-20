@@ -11,7 +11,7 @@ class Post
     if @author == nil
       return nil
     else
-      @uathor.name
+      @author.name
     end
   end
   
