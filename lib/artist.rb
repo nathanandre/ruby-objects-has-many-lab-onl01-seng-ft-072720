@@ -4,6 +4,8 @@ class Artist
   #attr_reader :songs 
 
   @@song_count = 0
+  
+  def song 
 
   def initialize(name)
     @name = name
